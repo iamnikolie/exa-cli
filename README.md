@@ -23,6 +23,14 @@ stdout, nothing costs context until it is called.
 
 ## Install
 
+**Homebrew:**
+
+```bash
+brew trust iamnikolie/tap   # Homebrew 6 refuses untrusted third-party taps
+brew tap iamnikolie/tap
+brew install iamnikolie/tap/exa-cli
+```
+
 **Prebuilt binary** — download the archive for your platform from
 [Releases](https://github.com/iamnikolie/exa-cli/releases), then:
 
